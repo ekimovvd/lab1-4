@@ -1,0 +1,17 @@
+.home {
+  .content {
+    padding: 30px 0px;
+
+    .grid {
+      margin-top: 15px;
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .item {
+        margin-right: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.atbash {
+  padding: 30px 0px;
+
+  .content {
+    .item {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+      cursor: default;
+    }
+
+    .form {
+      width: 280px;
+      margin-left: auto;
+      margin-right: auto;
+
+      .form__group {
+        .form__textarea {
+          width: 280px;
+        }
+
+        .form__btn {
+          background: #262626;
+          border: 2px solid #3f3f3f;
+          width: 13%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: auto;
+          margin-top: 4px;
+
+          &.form__btn_one {
+            &:hover {
+              .form__icon {
+                color: #ff9804;
+              }
+            }
+          }
+
+          .form__icon {
+            color: #575758;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}

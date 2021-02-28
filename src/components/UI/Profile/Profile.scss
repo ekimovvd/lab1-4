@@ -1,0 +1,19 @@
+.profile {
+  width: 280px;
+  margin: 0px auto;
+  text-align: center;
+
+  .profile__icon {
+    font-size: 55px;
+    margin-bottom: 5px;
+
+    &:hover {
+      color: #218be2;
+    }
+  }
+
+  .profile__text {
+    margin-top: 3px;
+    font-size: 14px;
+  }
+}
